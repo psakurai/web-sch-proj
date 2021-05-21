@@ -60,7 +60,7 @@ body {
   grid-column-end: 4;
 }
 .bar {
-  background-image: url(dinosaur.jpg);
+  background-image: url(../images/dinosaur.jpg);
   background-position: center;
   background-size: auto;
   margin: -49px 70px 0px 80px;
@@ -69,7 +69,7 @@ body {
   grid-column-end: 2;
 }
 .bar-newsletter {
-  background-image: url(dinosaur.jpg);
+  background-image: url(../images/dinosaur.jpg);
   background-position: center;
   background-size: auto;
   height: 744px;
