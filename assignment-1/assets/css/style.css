@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url('http://fonts.cdnfonts.com/css/chomsky');
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+.grid-container-1 {
+  margin: -19px -19px -19px -19px;
+  display: grid;
+  grid-template-columns: 21.7% 56.6% 21.7%;
+  grid-template-rows: auto;
+  grid-row-gap: 1em;
+}
+.grid-container-1-newsletter {
+  margin: -19px -19px -19px -19px;
+  display: grid;
+  grid-template-columns: 35% 39% 31%;
+  grid-template-rows: auto;
+  grid-row-gap: 1em;
+}
+.header {
+  padding: 50px;
+  margin: -19px -19px 0px -19px;
+  width: 100%;
+  background: #262626;
+  position: fixed;
+}
+.main-header a{
+  padding-left: 200px;
+  margin: 0 0px;
+  display:inline;
+  float:left;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-family: poppins;
+  font-size: 30px;
+  color: #fff;
+}
+.header .alt-header {
+  text-align: right;
+  display:inline;
+  float:right;
+}
+.header a {
+  padding-right: 200px;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 30px;
+  color: #fff;
+}
+.grid-item-1 {
+  background-image: url(dinosaur.jpg);
+  background-position: center;
+  background-size: auto;
+  background-color: #25242A;
+  padding:20px;
+  margin: -19px -19px 0px -19px;
+  height: 464px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.bar {
+  margin: 20px 80px 250px 80px;
+  background-color: #25242A;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.bar-newsletter {
+  margin: 70px 30px 71px 560px;
+  background-color: #25242A;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.box {
+  margin: 70px 20px 70px 20px;
+  padding: 40px 30px 10px 30px;
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+  border: 2px solid #262626;
+}
+.box form {
+  text-align: center;
+}
+.box #name,#email {
+  width: 70%;
+}
+.box #submit {
+  margin: 4px 2px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  border: solid 10px #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.box h3 {
+  font-family: 'Chomsky', sans-serif;
+}
+.grid-item-2 {
+  padding: 0px;
+  font-size: 14px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.grid-item-2 h1,h2{
+  font-family: 'Chomsky', sans-serif;
+}
+.newsletter {
+  padding: 20px;
+  background-color: #a2b9bc;
+}
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-row-gap: 1em;
+}
+.grid-container-2 p {
+  font-size: 15px;
+}
+.grid-container-2 h2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.grid-item-3a {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: 14x;
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.grid-item-3b {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: 14px;
+  text-align: justify;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.buttons {
+  text-align: center;
+}
+.button-1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:80px;
+  border-radius: 7%;
+}
+.button-2 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:80px;
+  border-radius: 7%;
+}
+.technical-skills {
+  text-align: center;
+}
+.technical-skills p{
+  font-size: 15px;
+  text-align: justify;
+}
+.coursework {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.coursework h2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.coursework ul{
+  list-style-type: square;
+  text-align: justify;
+  font-size: 15px;
+}
+.icon1 {
+  display: flex;
+  position: relative;
+  margin: 20px;
+}
+.icon2 {
+  display: flex;
+  position: relative;
+  margin: 20px;
+}
+.contact {
+  margin-top: -78px;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+.contact p{
+  margin: 20px 50px 23px 60px;
+  display: flex;
+  position: relative;
+  font-size: 15px;
+}
+.icons {
+  text-align: center;
+  word-spacing: 15px;
+}
+#center-wording {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 8px;
+  word-spacing: 14px;
+}
+.grid-item-4 {
+  background-color: #B7C1BB;
+  padding: 50px;
+  margin: -19px -19px -19px -19px;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.top {
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width:80px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+}
