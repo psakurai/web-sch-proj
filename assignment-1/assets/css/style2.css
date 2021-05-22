@@ -63,10 +63,10 @@ body {
   background-image: url(../images/dinosaur.jpg);
   background-position: center;
   background-size: auto;
-  margin: -49px 70px 0px 80px;
+  margin: -49px 70px -1505px 80px;
   background-color: #25242A;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 .bar-newsletter {
   background-image: url(../images/dinosaur.jpg);
