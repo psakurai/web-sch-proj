@@ -272,3 +272,23 @@ body {
   right: 0;
   width: 50px;
 }
+.CalculatorBox {
+  padding-top: 100px;
+  padding-left: 100px;
+  font-family: poppins;
+  align-items: center;
+}
+.CalculatorBox h1 {
+  padding-left: 70px;
+  align-items: center;
+}
+.CalculatorBox th {
+  background-color: #142d4c;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  border-radius: 5%;
+}
+.CalculatorBox form {
+  padding-bottom: 25px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GPA Calculator</title>
+    <link href="http://fonts.cdnfonts.com/css/chomsky" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <div class="grid-container-1-newsletter">
+    <!--Header-->
+      <div class="header">
+        <div class="main-header">
+          <a href="index.html">阿哩弗 | arif</a>
+        </div>
+      <div class="alt-header">
+        <a href="index.html">X</a>
+      </div>
+    </div>
+    <!--Banner-->
+    <div class="grid-item-1"></div>
+    <div class="bar-calculator"></div>
+    <script src="../assets/js/GPAcalculate.js"></script>
+    <!--Start Calculator-->
+    <div class="CalculatorBox">
+        <h1>GPA Calculator</h1>
+
+    <form name="table_form" action="post">
+        <table border="1" width="400" id="myTable">
+        <tbody id="table_body">
+            <tr>
+                <th align="left">Class</th><th align="left">Credits</th><th align="left">Marks</th>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="SCSJ2145"></td>
+                <td><input size="5" type="number" value="4" ></td>
+                <td><input size="5" type="number" value="90" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="SCSJ2202"></td>
+                <td><input size="5" type="number" value="3" ></td>
+                <td><input size="5" type="number" value="85" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="SCSJ2253"></td>
+                <td><input size="5" type="number" value="3" ></td>
+                <td><input size="5" type="number" value="85" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="SCSR2043"></td>
+                <td><input size="5" type="number" value="3" ></td>
+                <td><input size="5" type="number" value="90" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="SCSV1223"></td>
+                <td><input size="5" type="number" value="3" ></td>
+                <td><input size="5" type="number" value="90" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" maxlength="8" size="15" value="ULAB2122"></td>
+                <td><input size="5" type="number" value="2" ></td>
+                <td><input size="5" type="number" value="90" ></td>
+            </tr>
+        </tbody>
+        </table>
+    </form><!--End table form-->
+
+    <form>
+        <input type="button" value="Add Subject" onclick="addNewSubject()">
+        <input type="button" value="Delete last Subject" onclick="deleteLastSubject()">
+    </form>
+
+    <!--Result Table Start-->
+    <form name="results" method="post" onsubmit="return false">
+        <table border="0" width="468">
+        <tbody><tr>
+            <td>Total Credits: <input name="total_credits" size="10"></td>
+            <td>GPA: <input name="gpa" size="10"></td>
+            <td><input type="button" value="Calculate" onclick="sendElementToCalculate()"></td>
+            </tr>
+        </tbody>
+        </table>
+    </form> <!-- Result Table Ends-->
+    </div> <!--End Calculator Box-->
+    <!--Footer-->
+    <div class="grid-item-4">
+      <p>Copyright 2021 Arif Amiruddin. All right Reserved</p>
+    </div>
+    <a href="#top" class="top">
+    <img alt="Github" src="../assets/images/top.png" width="50" height="50"></a>
+  </body>
+</html>
