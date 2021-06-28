@@ -1,3 +1,12 @@
+/*
+********************************************************
+* Individual Assignment     				             		   *
+* 			                                               *
+* Name: ARIF AMIRUDDIN BIN SADIRAN             		     *
+* Matric Number: A10EC0022                             *
+* Section: 03                                          *
+********************************************************
+*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 @import url('http://fonts.cdnfonts.com/css/chomsky');
 body {
@@ -285,4 +294,30 @@ body {
 }
 .CalculatorBox form {
   padding-bottom: 25px;
+}
+.button-add {
+  padding: 0px 34px;
+  border-radius: 3px;
+  background-color: #25242A;
+  border: solid 10px #25242A;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button-delete {
+  padding: 0px 8px;
+  border-radius: 3px;
+  background-color: #25242A;
+  border: solid 10px #25242A;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button-send {
+  border-radius: 3px;
+  background-color: #25242A;
+  border: solid 6px #25242A;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
 }

@@ -4,26 +4,21 @@
 * 			                                               *
 * Name: ARIF AMIRUDDIN BIN SADIRAN             		     *
 * Matric Number: A10EC0022                             *
-* Section: 02                                          *
+* Section: 03                                          *
 ********************************************************
 */
-
-
-
-
-
 /*Assessment item - Task 1*/
 /*Based on your understanding, provide a detailed description of how function addNewSubject() works
-
-
-
-
-
-
-
-
-
-
+ * Get elements of id table_body to tbody
+ * Create newTr variable of tr tag
+ * In a loop, create var td and input tags to variable td and input respectively.
+ *   Check if it is the 2nd or 3rd loop, if so the input type will be number and its size would be 5.
+ * Else, the input type would be text, the size would be 15 and the maximum length would be 8.
+ * Then, input and td would be append to td and newtr respectively.
+ * The loop would be repeated 3 times.
+ *
+ * Brief description: The function is responsible for adding subject with 3 columns details and added
+ * its to the next row.
 */
 function addNewSubject() {
     var tbody = document.getElementById("table_body");
@@ -46,22 +41,13 @@ function addNewSubject() {
     }
     tbody.appendChild(newTr);
 }
-
-
-
-
 /*Assessment item - Task 2*/
 /*Based on your understanding, provide a detailed description of how function deleteLastSubject() works
-
-
-
-
-
-
-
-
-
-
+ * Get rows by the id of myTable into variable x.
+ * The variable x is checked if it is empty.
+ * If not, a row would be deleted.
+ *
+ * Brief description: The function is responsible for deleting the last row of table if the rows is not empty.
 */
 function deleteLastSubject() {
 
@@ -71,46 +57,31 @@ function deleteLastSubject() {
     }
     document.getElementById("myTable").deleteRow(x-1);
 }
-
-
-
-
 /*Assessment item - Task 3*/
 /*Based on your understanding, provide a detailed description of how function sendElementToCalculate() works
-
-
-
-
-
-
-
-
-
-
+ * Get element with id table_body and input into variable tbody and elements respectively.
+ * Pass the elements to a function called CalculateGPA
+ *
+ * Brief description: Get elements table_body and input to be passed to CalculateGPA function.
 */
 function sendElementToCalculate(){
     var tbody = document.getElementById("table_body");
     var elements = tbody.getElementsByTagName("input");
     CalculateGPA(elements);
 }
-
-
-
-
-
 /*Assessment item - Task 4*/
 /*Based on your understanding, provide a detailed description of how function CalculateGPA() works.
-
-
-
-
-
-
-
-
-
-
-
+ * Received elements from the parameter
+ * Declare and assigned variables totalCredits, totalPoints and allOK to 0.
+ * get elements length into variable length
+ * In a loop within the limit of length,
+ * Check if the subject name is empty, if yes, shows an error notification, else changed border color to green.
+ * Check if the credit is empty, if yes, shows an error notification,else if the credit is not a whole number, shows an error notification
+ *   else changed border color to green.
+ * Check if the mark is empty, if yes, shows an error notification, else changed border color to green.
+ * Find the division of totalPoints to to totalCredits and stored in variable GPA.
+ * Set the totalCredits and GPA with the later precision of 3.
+ * Brief description: Check the input datas if it passed the required criteria and calculated the GPA in a 3 precision.
 */
 function CalculateGPA(elements) {
 
